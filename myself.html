@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<style tyle="text/css">
+		html {
+			position: relative;
+			min-height: 100%;
+			margin: 0;
+		}
+		#wrapper {
+			background-color:#dededd;
+			position: relative;
+			min-height: 100%;
+		}
+		ul {
+			list-style-type: none;
+    		margin: 0;
+   		 	padding: 0;
+    		width: 200px;
+			height: 300px;
+			position:fixed;
+			left: 1200px;
+			top: 500px;
+    		background-color: #f1f1f1;
+		}
+		li a {
+    		display: block;
+   			color: #000;
+    		padding: 8px 16px;
+    		text-decoration: none;
+		}
+		li a.active {
+    		color: #000;
+		}
+		li a:hover:not(.active) {
+    		background-color: #555;
+    		color: white;
+		}
+		#my-title {
+			background-color:#d4d4cd;
+			border:3px;
+			padding:3px;
+			top: 100px;
+			position: absolute;
+			width: 100%;
+			height: 300px;
+			text-align: center;
+			font-size: 20px;
+		}
+		#my-summary {
+			border:3px;
+			padding:0px;
+			top: 430px;
+			left: 130px;
+			position: absolute;
+			font-size: 38px;
+			font-style:italic;
+		}
+		#my-job {
+			border:3px;
+			padding:0px;
+			top: 1200px;
+			left: 130px;
+			position: absolute;
+			font-size: 30px;
+			font-style:italic;
+		}
+		.my-job-p {
+			border:3px;
+			padding:0px;
+			width: 700px;
+			top: 620px;
+			left:60px;
+			position: absolute;
+			font-size: 25px;
+			font-family: monospace;
+		}
+		.my-summaryp {
+			border: 3px;
+			padding:0px;
+			top: 580px;
+			left: 200px;
+			position: absolute;
+			font-size: 25px;
+		}
+		.my-summarypp {
+			border: 3px;
+			padding:0px;
+			top: 2200px;
+			left: 200px;
+			position: absolute;
+			font-size: 25px;
+		}
+
+		#my-summary-h2 {
+			border:3px;
+			padding:86px;
+			top: 1900px;
+			position: absolute;
+			width: 100%;
+			font-size: 38px;
+			font-style:italic;
+		}
+		#summary-h21 {
+			border:3px;
+			padding:86px;
+			top: 2300px;
+			position: absolute;
+			font-size: 38px;
+			font-style:italic;
+		}
+		.imgswap-img {
+			position: relative;
+			top: 950px;
+			left: 200px;
+		}
+		.imgswap-img img:last-child{display:none}
+		.imgswap-img:hover img:first-child{display:none}
+		.imgswap-img:hover img:last-child{display:inline-block}
+
+		.my-summaryppp {
+			border: 3px;
+			padding:0px;
+			top: 2500px;
+			left: 200px;
+			position: absolute;
+			font-size: 25px;
+		}
+		.imgswap{
+			position: relative;
+			top: 750px;
+			left: 200px;
+		}
+		.imgswap img:last-child{display:none}
+		.imgswap:hover img:first-child{display:none}
+		.imgswap:hover img:last-child{display:inline-block}
+
+	</style>
+</head>
+<body id="wrapper">
+	<div style="color:black"; id="my-title">
+		<h1><strong><br><br>
+			Wecode 9기 박상엽니다.
+		</strong></h1>
+	</div>
+	<div id="my-summary">
+		<h2 style="text-align: left";>나는 누구일까?</h2>
+	</div>
+	<div class="my-summaryp"><p>저는 학점은행제로 2년제 비파괴검사 전공을 했습니다.<br>
+		하지만 실제로 일을 하면서 몸으로 느끼는 체감은 컸습니다.<br>
+	여기에 안주하면 저는 앞으로의 발전없는 생활을 할것같아, 과감히 퇴사하고<br>
+하고싶었던 코딩을 배우려고 Wecode에 지원했습니다.</p></div>
+	<div id="my-job">
+		<h2>저는 이런일을 했습니다.</h2>
+		<p class="my-job-p">비파괴검사 라는 일을 했었습니다.<br>
+		하는일 은 외부와 내부에 결함이 있는지 찾는 일입니다.<br>
+	프로그래밍 또한 코드를 직접 짜면서 내부와 외부에 표현되는것에<br>
+에러가 있는지 없는지 찾는것이라 생각하고 있습니다.</p>
+	</div>
+	<div id="my-summary-h2">
+		<h2 style="text-align: left";>잘하는 것</h2>
+	</div>
+	<div class="my-summarypp">
+		<p>저는 잘하는것은 한가지에 집중하는것입니다.<br>
+		한번 집중하게되면 주변을 잘 둘러보지 못합니다.<br>
+	하지만 끝까지 해내는 성격입니다.</p>
+	</div>
+	<div id="summary-h21"><h2>취미</h2></div>
+	<div class="my-summaryppp">
+		<p>저는 노래듣고 부르기, 영화보기 가 취미 입니다.<br>
+		좋아하는 가수는 <a href="https://search.naver.com/search.naver?sm=top_hty&fbm=0&ie=utf8&query=휘성"style="text-decoration: underline" class="singer";>휘성</a> 입니다.<br>
+	휘성 노래중 가장 좋아하는 <a href="https://www.youtube.com/watch?v=xB0q_-QvPIg"style="text-decoration: underline";>노래</a>는 링크로 걸어놨습니다. 한번 들어보세요.</p>
+
+	</div>
+	<div class="imgswap">
+		<img src="IMG_3129.JPG" alt="my image" width="350" height="400">
+		<img src="IMG_2343.JPG"alt="my image" width="350" height="400">
+	</div>
+	<div class="imgswap-img">
+		<img src="IMG_2651.JPG" alt="my job image" width="430" height="400">
+		<img src="IMG_2650.JPG" alt="my job image" width="430" height="400">
+	</div>
+	<ul>
+      <li><a class="active" href="#my-title">Home</a></li>
+      <li><a href="#my-summary-h2">Summary</a></li>
+      <li><a href="#"></a></li>
+      <li><a href="https://velog.io/@pjkfckr">Velog</a></li>
+    </ul>
+</body>
+</html>
